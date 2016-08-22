@@ -1057,7 +1057,6 @@ a.article-title:hover {
 }
 #article-nav {
   position: relative;
-  visibility: hidden;
 }
 #article-nav:before,
 #article-nav:after {
@@ -1066,23 +1065,6 @@ a.article-title:hover {
 }
 #article-nav:after {
   clear: both;
-}
-@media screen and (min-width: 1200px) {
-  #article-nav {
-    margin: 40px 0;
-  }
-  #article-nav:before {
-    width: 8px;
-    height: 8px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-top: -4px;
-    margin-left: -4px;
-    content: "";
-    border-radius: 50%;
-    background: #787c81;
-  }
 }
 .article-nav-link-wrap {
   text-decoration: none;
