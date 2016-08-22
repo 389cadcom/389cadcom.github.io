@@ -3,18 +3,18 @@
 <head>
     <meta charset="utf-8">
     
-    <title>青春已逝 | 三日吾省</title>
+    <title>ES6特性 | 三日吾省</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <meta name="description" content="在青春最好的年纪，你可以爱一个人，但不要等待一个人。你可以去毫无保留的爱人，就算是爱错了，摔倒了，大不了拍拍灰尘继续往前走。但千万不要停留在原地，毫无期限的等待某人。等待的往往不是爱，而是纠缠虚耗。青春拥有的就是激情，激情耗尽了，人就老了。">
-<meta property="og:type" content="website">
-<meta property="og:title" content="青春已逝">
-<meta property="og:url" content="http://389cadcom.github.io/about/index.html">
+    <meta name="description" content="1.Default Parameters（默认参数） in ES62.Template Literals （模板文本）in ES63.Multi-line Strings （多行字符串）in ES64.Destructuring Assignment （解构赋值）in ES65.Enhanced Object Literals （增强的对象文本）in ES66.Arrow Functions （箭">
+<meta property="og:type" content="article">
+<meta property="og:title" content="ES6特性">
+<meta property="og:url" content="http://389cadcom.github.io/2016/08/22/ES6特性/index.html">
 <meta property="og:site_name" content="三日吾省">
-<meta property="og:description" content="在青春最好的年纪，你可以爱一个人，但不要等待一个人。你可以去毫无保留的爱人，就算是爱错了，摔倒了，大不了拍拍灰尘继续往前走。但千万不要停留在原地，毫无期限的等待某人。等待的往往不是爱，而是纠缠虚耗。青春拥有的就是激情，激情耗尽了，人就老了。">
-<meta property="og:updated_time" content="2016-08-19T08:13:56.057Z">
+<meta property="og:description" content="1.Default Parameters（默认参数） in ES62.Template Literals （模板文本）in ES63.Multi-line Strings （多行字符串）in ES64.Destructuring Assignment （解构赋值）in ES65.Enhanced Object Literals （增强的对象文本）in ES66.Arrow Functions （箭">
+<meta property="og:updated_time" content="2016-08-22T06:23:52.777Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="青春已逝">
-<meta name="twitter:description" content="在青春最好的年纪，你可以爱一个人，但不要等待一个人。你可以去毫无保留的爱人，就算是爱错了，摔倒了，大不了拍拍灰尘继续往前走。但千万不要停留在原地，毫无期限的等待某人。等待的往往不是爱，而是纠缠虚耗。青春拥有的就是激情，激情耗尽了，人就老了。">
+<meta name="twitter:title" content="ES6特性">
+<meta name="twitter:description" content="1.Default Parameters（默认参数） in ES62.Template Literals （模板文本）in ES63.Multi-line Strings （多行字符串）in ES64.Destructuring Assignment （解构赋值）in ES65.Enhanced Object Literals （增强的对象文本）in ES66.Arrow Functions （箭">
     
 
     
@@ -196,7 +196,7 @@
 </aside>
 
             
-            <section id="main"><article id="page-undefined" class="article article-type-page" itemscope itemprop="blogPost">
+            <section id="main"><article id="post-ES6特性" class="article article-type-post" itemscope itemprop="blogPost">
     <div class="article-inner">
         
         
@@ -205,17 +205,55 @@
                 
     
         <h1 class="article-title" itemprop="name">
-            青春已逝
+            ES6特性
         </h1>
     
 
+                
+                    <div class="article-meta">
+                        
+    <div class="article-date">
+        <i class="fa fa-calendar"></i>
+        <a href="/2016/08/22/ES6特性/">
+            <time datetime="2016-08-22T01:16:05.709Z" itemprop="datePublished">2016-08-22</time>
+        </a>
+    </div>
+
+
+                        
+    <div class="article-category">
+    	<i class="fa fa-folder"></i>
+        <a class="article-category-link" href="/categories/ES6/">ES6</a>
+    </div>
+
+                        
+    <div class="article-tag">
+        <i class="fa fa-tag"></i>
+        <a class="tag-link" href="/tags/es6/">es6</a>
+    </div>
+
+                    </div>
                 
             </header>
         
         <div class="article-entry" itemprop="articleBody">
         
             
-            <p>在青春最好的年纪，你可以爱一个人，但不要等待一个人。你可以去毫无保留的爱人，就算是爱错了，摔倒了，大不了拍拍灰尘继续往前走。但千万不要停留在原地，毫无期限的等待某人。等待的往往不是爱，而是纠缠虚耗。青春拥有的就是激情，激情耗尽了，人就老了。</p>
+            <p>1.Default Parameters（默认参数） in ES6<br>2.Template Literals （模板文本）in ES6<br>3.Multi-line Strings （多行字符串）in ES6<br>4.Destructuring Assignment （解构赋值）in ES6<br>5.Enhanced Object Literals （增强的对象文本）in ES6<br>6.Arrow Functions （箭头函数）in ES6<br>7.Promises in ES6<br>8.Block-Scoped Constructs Let and Const（块作用域构造Let and Const）<br>9.Classes（类） in ES6<br>10.Modules（模块） in ES6</p>
+<a id="more"></a>
+<h2 id="箭头函数"><a href="#箭头函数" class="headerlink" title="箭头函数"></a>箭头函数</h2><p>=&gt;是function函数的简写，同时拥有语法的作用域this值，能有效解决this的指向问题<br>1.默认是要带有括号<br>2.在参数是一个时，表达式只有一行时可以省略<br>3.无参时一定要带括号<!--more--><br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">const fn = () =&gt; &#123;</div><div class="line">   //</div><div class="line">&#125;</div><div class="line">arr.filter(item =&gt; &#123;</div><div class="line">   //</div><div class="line">&#125;);</div></pre></td></tr></table></figure></p>
+<h2 id="类-class"><a href="#类-class" class="headerlink" title="类(class)"></a>类(class)</h2><p>ES6引入了class，让jst的面向对象编程变得更加容易清晰和容易理解；但类只是基于原型的面向对象模式的语法糖</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div></pre></td><td class="code"><pre><div class="line">class Animal&#123;</div><div class="line">   // 构造方法，实例化的时候将会被调用，如果不指定，那么会有一个不带参数的默认构造函数.</div><div class="line">   constructor(name, color)&#123;</div><div class="line">	this.name = name;</div><div class="line">	this.color= color;</div><div class="line">   &#125;</div><div class="line">   // toString 是原型对象上的属性</div><div class="line">   <span class="function"><span class="title">toString</span></span>()&#123;</div><div class="line"></div><div class="line">   &#125;</div><div class="line">&#125;</div><div class="line">class Cat extends Animal&#123;</div><div class="line">    constructor(action)&#123;</div><div class="line">       // 子类必须要在constructor中指定super 方法，否则在新建实例的时候会报错.</div><div class="line">       // 如果没有置顶consructor,默认带super方法的constructor将会被添加</div><div class="line">       super(<span class="string">'cat'</span>, <span class="string">'white'</span>);</div><div class="line">       this.action = action;</div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<h3 id="类的属性prototype和proto"><a href="#类的属性prototype和proto" class="headerlink" title="类的属性prototype和proto"></a>类的属性prototype和<strong>proto</strong></h3><p>1.子类的<strong>proto</strong>属性，表示构造函数的继承，总指向父类<br>2.子类的prototype.<strong>proto</strong>属性，表示方向的继函，总指向父类的prototype属性</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div></pre></td><td class="code"><pre><div class="line">class Cat extends Animal &#123;&#125;</div><div class="line">Cat.__proto__ === Animal;</div><div class="line">Cat.prototype.__proto__ === Animal.prototype</div><div class="line"></div><div class="line">//相当于</div><div class="line">class Cat extends Animal &#123;</div><div class="line">   <span class="function"><span class="title">construcotr</span></span>() &#123;</div><div class="line">     <span class="built_in">return</span> Animal.__proto__.call(this);</div><div class="line">  &#125;</div><div class="line">&#125;</div><div class="line"></div><div class="line">Cat.prototype.__proto__ = Animal.prototype</div></pre></td></tr></table></figure>
+<p>继承于Object<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">class Cat extends Object &#123;&#125;</div><div class="line">console.log(Cat.__proto__ === Object); // <span class="literal">true</span></div><div class="line">console.log(Cat.prototype.__proto__ === Object.prototype);</div></pre></td></tr></table></figure></p>
+<p>继承于Function或null<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">class Cat &#123;&#125;, class Cat extends null &#123;&#125;</div><div class="line">console.log(Cat.__proto__ === Function.prototype); // <span class="literal">true</span></div><div class="line">console.log(Cat.prototype.__proto__ === Object.prototype); </div><div class="line">console.log(Cat.prototype.__proto__ == null);	//null !== null</div></pre></td></tr></table></figure></p>
+<p>Cat是一个普通函数，所以继承 Function.prototype.<br>第二条继承链不继承任何方法，所以 Cat.prototype.<strong>proto</strong> == null</p>
+<h2 id="Module模块"><a href="#Module模块" class="headerlink" title="Module模块"></a>Module模块</h2><p>在ES6中，模块将作为重要的组成部分被添加进来。模块的功能主要由 export 和 import 组成.每一个模块都有自己单独的作用域，模块之间的相互调用关系是通过 export 来规定模块对外暴露的接口，通过import来引用其它模块提供的接口。同时还为模块创造了命名空间，防止函数的命名冲突。</p>
+<h3 id="extends-import"><a href="#extends-import" class="headerlink" title="extends, import"></a>extends, import</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">export</span> var name = <span class="string">"main"</span>;</div><div class="line"></div><div class="line">//test.js</div><div class="line">var name = <span class="string">'Rbo'</span>, age = 20;</div><div class="line"><span class="built_in">export</span> &#123;name, age&#125;</div><div class="line"></div><div class="line">import &#123;name, age&#125; from <span class="string">'./test.js'</span></div><div class="line">import * as <span class="built_in">test</span> from <span class="string">'./test.js'</span>   module <span class="built_in">test</span> form <span class="string">'test.js'</span></div></pre></td></tr></table></figure>
+<h3 id="export-default"><a href="#export-default" class="headerlink" title="export default"></a>export default</h3><p>不用关系模块输出了什么，通过 export default 指令就能加载到默认模块，不需要通过 花括号来指定输出的模块,一个模块只能使用 export default一次</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">export</span> default <span class="keyword">function</span> <span class="function"><span class="title">getName</span></span>()&#123;&#125;;</div><div class="line"></div><div class="line">// 或者写成</div><div class="line"><span class="keyword">function</span> <span class="function"><span class="title">getName</span></span>() &#123;&#125;</div><div class="line"><span class="built_in">export</span> default getName;</div><div class="line"></div><div class="line">// 导入的时候不需要花括号</div><div class="line">import getName from <span class="string">'./test.js'</span></div></pre></td></tr></table></figure>
+<p>一条import 语句可以同时导入默认方法和其它变量.<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">import defaultMethod, &#123; otherMethod &#125; from <span class="string">'xxx.js'</span>;</div></pre></td></tr></table></figure></p>
 
         
         </div>
@@ -226,7 +264,7 @@
 
 </div>
 
-    <a data-url="http://389cadcom.github.io/about/index.html" data-id="cis5ebvgv0001dgs14jc96ym7" class="article-share-link"><i class="fa fa-share"></i>分享到</a>
+    <a data-url="http://389cadcom.github.io/2016/08/22/ES6特性/" data-id="cis5ebvgr0000dgs1nyhn1dyw" class="article-share-link"><i class="fa fa-share"></i>分享到</a>
 <script>
     (function ($) {
         // Prevent duplicate binding
@@ -294,13 +332,32 @@
 
             
     
-        <a href="http://389cadcom.github.io/about/index.html#comments" class="article-comment-link ds-thread-count" data-thread-key="http://389cadcom.github.io/about/index.html">评论</a>
+        <a href="http://389cadcom.github.io/2016/08/22/ES6特性/#comments" class="article-comment-link ds-thread-count" data-thread-key="http://389cadcom.github.io/2016/08/22/ES6特性/">评论</a>
     
 
         </footer>
     </div>
     
         
+<nav id="article-nav">
+    
+        <a href="/2016/08/22/Babel使用/" id="article-nav-newer" class="article-nav-link-wrap">
+            <strong class="article-nav-caption">上一篇</strong>
+            <div class="article-nav-title">
+                
+                    Babel使用
+                
+            </div>
+        </a>
+    
+    
+        <a href="/2016/08/19/npm run自动化/" id="article-nav-older" class="article-nav-link-wrap">
+            <strong class="article-nav-caption">下一篇</strong>
+            <div class="article-nav-title">npm run自动化任务</div>
+        </a>
+    
+</nav>
+
 
     
 </article>
@@ -310,7 +367,7 @@
     <section id="comments">
     
         
-    <div class="ds-thread" data-thread-key="about/index.html" data-title="青春已逝" data-url="http://389cadcom.github.io/about/index.html"></div>
+    <div class="ds-thread" data-thread-key="2016/08/22/ES6特性/" data-title="ES6特性" data-url="http://389cadcom.github.io/2016/08/22/ES6特性/"></div>
     <style>
         #ds-thread #ds-reset .ds-textarea-wrapper {
             background: none;
